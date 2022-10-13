@@ -3,11 +3,11 @@
 
 
 int Policz(int a, int b) {
-    return a + b;
+    return a * b;
 }
 
 int main() {
     printf("Hello, World!");
-    printf("W pierwszym branchu; 2+3= %d",  Policz(2, 3));
+    printf("W pierwszym branchu; 2*3= %d",  Policz(2, 3));
     return 0;
 }
